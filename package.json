@@ -1,1 +1,24 @@
+{
+  "name": "ghibli-prompt-api",
+  "version": "1.0.0",
+  "description": "API server to generate Ghibli-style images and prompts from any image URL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "prompt",
+    "image",
+    "api",
+    "express"
+  ],
+  "author": "MinatoCodes",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "uuid": "^9.0.0"
+  }
+}
 
